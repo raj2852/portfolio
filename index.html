@@ -15,12 +15,8 @@
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 	</head>
 	<body>
-		<!--initial loader animation-->
+		<!--loader animation-->
 		<canvas id="canvas" style="display: block;">
-
-        </canvas>
-		<!--redirect animation-->
-		<canvas id="canvasredirect" style="display: none;">
 
         </canvas>
 		<!--navbar section-->
@@ -260,44 +256,15 @@
 	<script src="projects.js"></script>
 	<script src="loader.js"></script>
 	<script src="linking.js"></script>
-	<script src="redirect.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script type="text/javascript">
-		/*$(window).on('load',function(){
+		$(window).on('load',function(){
 			$(`#canvas`).fadeOut(4500);
-			$(`.main-site`).fadeIn(1000);
-		});*/
+			$(`#main-site`).fadeIn(1000);
+		});
 		setTimeout(function(){
 			document.getElementById("canvas").style.display="none";
 			document.getElementById("main-site").style.display="block";
-		},4500)
-
-		function tastebuds(){
-    document.getElementById("canvasredirect").style.display="block";
-    setTimeout(function(){
-        window.location = "https://tastebuds-in.herokuapp.com";
-        return false;
-    },5000);
-};
+		},4000)
 	</script>
 </html>
-
-
-<!--
-	<div class="main">
-			<div class="col-sm-12 col-md-12 col-lg-2">
-				<div class="nav">
-					<a href="">About</a>&nbsp;&nbsp;
-					<a href="">Education</a>&nbsp;&nbsp;
-					<a href="">Skills</a>&nbsp;&nbsp;
-					<a href="">Projects</a>&nbsp;&nbsp;
-					<a href="">Contact</a>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-12 col-lg-10">
-			<div class="content">
-				<p>Hello! I am RAJDIP MONDAL, computer science undergraduate student(B.Tech), passionate about constantly learning new industry-standard technologies.I am interested in building socially helpful applications that can help address daily life problems. I love to solve problems in creative ways. I am skilled and experienced in full-stack web development(with hosting experience on Github and Heroku), UI-UX development, data structures and algorithms. Computers have always been a wonder to me and it's my passion to deep dive into knowing how they work and how I can improvise upon them. I am well versed in communicating with English, Bengali and Hindi languages with both spoken and written proficiency. Self-motivation with ability to lead a team is what fuels me.Ability to quickly master new concepts, applications, technologies and working environments.I believe that it's always the process that is more important than the end result, because, "Your performance is not guaranteed but your effort is".In addition, my hobbies are painting(I have completed upto 5th year from SARBABHARATIYA SANGEET-O-SANSKRITI PARISHAD BOARD) and playing tabla(I have completed upto 4th year from PRACHEEN 0KALA KENDRA BOARD).</p>
-			</div>
-			</div>
-		</div>
--->

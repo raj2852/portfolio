@@ -15,18 +15,6 @@ body{
 	padding:0;
 	margin:0;
 }
-#canvasredirect{
-	position: fixed;
-	left:0px;
-	right:0px;
-	top:0px;
-	bottom:0px;
-	overflow:hidden;
-	width: 100%;
-	height:100%;
-	padding:0;
-	margin:0;
-}
 #main-site{
 	padding: 0;
 	margin: 0;
