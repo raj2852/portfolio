@@ -29,7 +29,7 @@ function octave(){
     document.getElementById("canvas").style.display="block";
     document.getElementById("main-site").style.display="none";
     setTimeout(function(){
-        window.location = "https://raj2852.github.io/octave-music-player";
+        window.location = "https://raj2852.github.io/Octave-music-player/";
     },5000);
     return false;
 }
