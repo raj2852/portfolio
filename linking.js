@@ -2,7 +2,7 @@ function tastebuds(){
     document.getElementById("canvas").style.display="block";
     document.getElementById("main-site").style.display="none";
     setTimeout(function(){
-        window.location = "https://tastebuds-in.herokuapp.com";
+        window.location = "https://tastebuds-in.cyclic.app/";
         return false;
     },5000);
 }
