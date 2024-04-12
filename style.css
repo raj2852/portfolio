@@ -181,6 +181,19 @@ a:visited{
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+.experience{
+	background-size: cover;
+	background: #f7e7ce;
+	min-height: 90vh;
+	color: #00b8aa;
+	padding: 15px;
+}
+.experience h3,h4{
+	color: peru;	
+}
+.experience p{
+	color: white,
+}
 .education{
 	background-size: cover;
 	background: #cbfffb;
